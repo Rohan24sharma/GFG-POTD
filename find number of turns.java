@@ -1,3 +1,24 @@
+// Given a binary tree and data value of two of its nodes. Find the number of turns needed to reach from one node to another in the given binary tree.
+
+// Example 1:
+
+// Input:      
+// Tree = 
+//            1
+//         /    \
+//        2       3
+//      /  \     /  \
+//     4    5   6    7                        
+//    /        / \                        
+//   8        9   10   
+// first node = 5
+// second node = 10
+// Output: 4
+// Explanation: 
+// Turns will be at 2, 1, 3, 6.
+
+
+
 //{ Driver Code Starts
 //Initial template for Java
 
