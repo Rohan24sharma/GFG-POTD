@@ -34,7 +34,7 @@ class GFG {
     }
 }
 // } Driver Code Ends
-// if index is one-based
+
 
 class Solution {
     static int safePos(int n, int k) {
@@ -44,11 +44,3 @@ class Solution {
     }
 };
 
-// if index is zero based
-class Solution {
-    static int safePos(int n, int k) {
-        // code here
-        if(n==1)return 0;
-        return ((safePos(n-1,k)+k)%n+1);
-    }
-};
